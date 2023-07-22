@@ -1,0 +1,15 @@
+*.bak
+*.exe
+*.obj
+*.dat
+*.txt
+*.patch
+*~
+.gdb_history
+.gdbinit
+.vscode/
+*.BAK
+*.EXE
+*.OBJ
+*.DAT
+*.TXT
