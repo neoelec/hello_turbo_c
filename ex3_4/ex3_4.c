@@ -2,7 +2,7 @@
 
 int main(void)
 {
-    printf("\aBell\n");
+    printf("\aBell \n");
     printf("double quote \"\n");
     printf("back slash \\\n");
     printf("graphic character \xDB\n");
