@@ -6,7 +6,7 @@ void print_i(void);
 
 void print_i(void)
 {
-    printf("In function print_i(),i = %d\n", i);
+    printf("In function print_i(), i = %d\n", i);
 }
 
 int main(void)

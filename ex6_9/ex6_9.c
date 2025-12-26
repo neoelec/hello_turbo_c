@@ -2,7 +2,7 @@
 
 #define DISKS 3
 
-void move(int, int, int, int);
+void move(int n, int a, int b, int c);
 
 void move(int n, int a, int b, int c)
 {
