@@ -1,4 +1,3 @@
-/* Kawi,Bawi,Bo output program */
 #include <stdio.h>
 
 int main(void)
@@ -24,7 +23,7 @@ int main(void)
         scanf("%d", &x);
     }
 
-    printf("Kawi :%d, Bawi %d, Bo %d\n", kawi, bawi, bo);
+    printf("Kawi :%d ,Bawi %d, Bo %d \n", kawi, bawi, bo);
 
     return 0;
 }
