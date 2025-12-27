@@ -4,9 +4,8 @@ int func1(int val);
 
 int main(void)
 {
-    int i;
-
     int (*fptr)(int i);
+    int i;
 
     i = 123;
     fptr = func1;
@@ -20,5 +19,5 @@ int func1(int val)
 {
     printf(" val is %d\n", val);
 
-    return 999;
+    return (999);
 }

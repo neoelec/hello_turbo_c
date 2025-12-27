@@ -2,11 +2,7 @@
 
 int main(void)
 {
-    char string[][20] = {
-        "lee kwung wuk",
-        "lim chae sung",
-        "kim ung sung",
-    };
+    char *string[] = { "Jee kwung wuk", "lim chai sung", "kim ung suk" };
     int i;
 
     for (i = 0; i < 3; i++) {
