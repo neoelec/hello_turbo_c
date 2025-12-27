@@ -26,11 +26,11 @@ void seperate_code(const unsigned code)
     c.in = code;
 
     if (c.bit_field.flag == 1) {
-        printf(" First code = %u\n", c.bit_field.first);
-        printf(" Middle code = %u\n", c.bit_field.middle);
-        printf(" Last code = %u\n", c.bit_field.last);
+        printf(" First code = %d \n", c.bit_field.first);
+        printf(" Middle code = %d \n", c.bit_field.middle);
+        printf(" Last code = %d \n", c.bit_field.last);
     } else {
-        printf(" This code(%u) is not hangul code !!!\n", code);
+        printf(" This code(%d) is not hangul code !!!\n", code);
     }
 
     printf("\n");

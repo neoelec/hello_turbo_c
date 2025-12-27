@@ -36,10 +36,10 @@ int main(void)
         "738-5230",
     };
 
-    printf(" x : %d y : %d\n", point.x, point.y);
-    printf(" Name    : %s\n", data.name);
-    printf(" Address : %s\n", data.addr);
-    printf(" Tel.    : %s\n", data.tel);
+    printf(" x : %d y : %d \n", point.x, point.y);
+    printf(" Name    : %s \n", data.name);
+    printf(" Address : %s \n", data.addr);
+    printf(" Tel.    : %s \n", data.tel);
 
     return 0;
 }
