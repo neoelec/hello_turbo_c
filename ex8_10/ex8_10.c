@@ -9,8 +9,8 @@ void list(const char *ptr[]);
 int main(void)
 {
     char *name[MAX] = {
-        "Howard Ashman",     "Alan Menken",        "Brian W. Kernighan",
-        "Dennis M. Ritchie", "Lawrence H. Miller", "Al Kelly",
+        "Howard Ashman",     "Alan Menken",         "Brian W. Kernighan",
+        "Dennis M. Ritchie", "Lawrencce H. Miller", "Al Kelley",
         "Ira Pohl",
     };
     char *n_ptr[MAX];

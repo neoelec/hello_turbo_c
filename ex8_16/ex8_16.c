@@ -12,7 +12,6 @@ int main(void)
     }
 
     printf("\n");
-
     array_cpy(scr, des, 6);
 
     for (i = 0; i < 3; i++) {

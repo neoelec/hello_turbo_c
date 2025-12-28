@@ -15,7 +15,7 @@ int main(void)
 
     ave = (float)sum / MAXDATA;
 
-    printf(" TOTAL = %ld   AVERAGE = %6.2\n", sum, ave);
+    printf(" TOTAL = %ld   AVERAGE = %6.2f\n", sum, ave);
 
     return 0;
 }

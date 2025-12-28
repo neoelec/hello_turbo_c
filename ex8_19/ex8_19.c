@@ -15,13 +15,15 @@ int main(void)
     printf(" Enter a value: ");
 
     while ((key = atoi(gets(buff))) != 0) {
-        ptr = (char *)bsearch(&key, table, n, w, func1);
+        ptr = bsearch(&key, table, n, w, func1);
 
         if (ptr != NULL) {
             printf(" Match on %d and %d\n\n", key, *ptr);
         } else {
-            printf(" Enter a value: ");
+            printf(" No match found in list for %d\n\n", key);
         }
+
+        printf(" Enter a value: ");
     }
 
     printf(" Process ending....!!\n");

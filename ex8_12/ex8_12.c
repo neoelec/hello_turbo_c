@@ -7,10 +7,10 @@ int main(int argc, char *argv[])
     printf(" Program name %s\n", argv[0]);
 
     if (argc < 2) {
-        printf(" argument is not exist!!\n");
+        printf(" Argument is not exist !!\n");
     } else {
         for (i = 1; i < argc; i++) {
-            printf(" Argument %d i s %s\n", i, argv[i]);
+            printf(" Argument %d is %s\n", i, argv[i]);
         }
     }
 

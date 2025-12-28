@@ -3,15 +3,15 @@
 
 int main(void)
 {
-    char string[][20] = {
-        "lee kwung wuk",
+    char *string[] = {
+        "lee kyung wuk",
         "lim chae sung",
-        "kim ung sung",
+        "kim ung suk",
     };
     int ps, sum = 0, i;
 
     ps = sizeof(string);
-    printf(" Total used memory : %d\n", ps);
+    printf(" String pointer size : %d\n", ps);
 
     for (i = 0; i < 3; i++) {
         sum += strlen(string[i]) + 1;

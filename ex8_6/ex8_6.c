@@ -39,8 +39,8 @@ int max_item_b(int *item)
     int i, max = 0;
 
     for (i = 0; i < MAX; i++) {
-        if (max < item[i]) {
-            max = item[i];
+        if (max < *(item + i)) {
+            max = *(item + i);
         }
     }
 

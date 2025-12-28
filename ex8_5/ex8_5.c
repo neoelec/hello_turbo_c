@@ -7,7 +7,7 @@ int main(void)
     pa = &x[0];
     pb = &x[1];
     printf(" pb - pa = %d\n", pb - pa);
-    printf(" pa - pb = %d]n", pa - pb);
+    printf(" pa - pb = %d\n", pa - pb);
 
     return 0;
 }
