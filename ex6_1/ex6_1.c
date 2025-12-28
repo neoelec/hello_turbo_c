@@ -26,7 +26,6 @@ int main(void)
     sum(10, 20);
     s = sum(20, 60);
     printf("sum from 20 to 60 = %d\n", s);
-
     printf("sum from 10 to 100 = %d\n", sum(10, 100));
 
     return 0;

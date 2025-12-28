@@ -9,7 +9,7 @@ void test(void)
 
     s_count++;
     a_count++;
-    printf("static cont  = %d\tauto count = %d\n", s_count, a_count);
+    printf("static count = %d\tauto count = %d\n", s_count, a_count);
 }
 
 int main(void)
