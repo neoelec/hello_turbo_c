@@ -87,7 +87,7 @@ int make_menu(int num, char *menu[], char *keys, int count, int par, int pos)
     int endx, endy, i, len = 0;
 
     if (num > MAX_FRAME) {
-        printf("Too many menus\0");
+        printf("Too many menus\n");
 
         return 0;
     }
@@ -149,9 +149,7 @@ void pulldriver(int *menu_frame, int *number, int gd)
     display_top();
 
     while (do_again) {
-        *number = pulldown(*menu_frame, *number);
-
-        switch (*number) {
+        switch (*number = pulldown(*menu_frame, *number)) {
         case -1:
 
             if (*menu_frame == 0) {
@@ -519,7 +517,7 @@ void xorbar(int a, int b, int c, int d)
 
     setwritemode(XOR_PUT);
 
-    for (i = b; i < d; i++) {
+    for (i = b; i <= d; i++) {
         line(a, i, c, i);
     }
 
