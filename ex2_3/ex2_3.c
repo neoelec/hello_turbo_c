@@ -13,7 +13,7 @@ int main(void)
         printf("The height is wrong.");
     } else {
         extent = 0.5 * base * height;
-        printf(" The extent o a triangle is %8.2f", extent);
+        printf(" The extent of a triangle is %8.2f ", extent);
     }
 
     return 0;

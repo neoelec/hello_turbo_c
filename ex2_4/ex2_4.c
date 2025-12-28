@@ -1,4 +1,3 @@
-/* Kawi,Bawi,Bo output program */
 #include <stdio.h>
 
 int main(void)
