@@ -25,7 +25,7 @@ int main(void)
 
     while (scanf("%lf %lf", &input.magnitude, &input.angle) == 2) {
         result = polar_to_rect(input);
-        printf("x = %0.2lf, y= %0.2lf\n", result.x, result.y);
+        printf("x = %0.2lf, y = %0.2lf\n", result.x, result.y);
     }
 
     return 0;
