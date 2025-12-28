@@ -21,8 +21,8 @@ int main(void)
     a.math = 75;
     a.total = a.kor + a.eng + a.math;
     a.ave = a.total / 3;
-    printf(" Name    = %s\n", (*pa).name);
-    printf(" Korean  = %d\n", (*pa).kor);
+    printf(" Name    : %s\n", (*pa).name);
+    printf(" korean  = %d\n", (*pa).kor);
     printf(" English = %d\n", (*pa).eng);
     printf(" Math    = %d\n", (*pa).math);
     printf(" Total   = %d\n", (*pa).total);

@@ -13,7 +13,7 @@ int main(void)
     }
 
     fclose(ff);
-    printf("\nProcessing end.  press any key!!");
+    printf("\nProcessing end.  press any key!!\n");
     getch();
 
     return 0;

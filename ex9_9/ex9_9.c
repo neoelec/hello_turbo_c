@@ -15,13 +15,13 @@ int main(void)
     MAN a, *pa;
 
     pa = &a;
-    strcpy(a.name, "TriOne");
-    a.kor = 87;
-    a.eng = 90;
-    a.math = 75;
-    a.total = a.kor + a.eng + a.math;
-    a.ave = a.total / 3;
-    printf(" Name    = %s\n", pa->name);
+    strcpy(pa->name, "TriOne");
+    pa->kor = 87;
+    pa->eng = 90;
+    pa->math = 75;
+    pa->total = pa->kor + pa->eng + pa->math;
+    pa->ave = pa->total / 3;
+    printf(" Name    : %s\n", pa->name);
     printf(" Korean  = %d\n", pa->kor);
     printf(" English = %d\n", pa->eng);
     printf(" Math    = %d\n", pa->math);
