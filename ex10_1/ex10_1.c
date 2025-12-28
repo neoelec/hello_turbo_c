@@ -23,9 +23,9 @@ int main(void)
     printf("|%#7x|\n", 456);
     printf("|%#7X|\n\n", 456);
 
-    printf("|%10ld\n|", 789L);
-    printf("|%10ld\n|", 123456789);
-    printf("|%7ld\n\n|", 123456789);
+    printf("|%10ld|\n", 789L);
+    printf("|%10ld|\n", 123456789);
+    printf("|%7ld|\n\n", 123456789);
 
     printf("Press any key to next page . . .");
 
@@ -35,6 +35,7 @@ int main(void)
     printf("|%f|\n", x);
     printf("|%12.4f|\n", x);
     printf("|%12.1f|\n", x);
+
     printf("|%-12.4f|\n", x);
     printf("|%012.4f|\n\n", x);
 

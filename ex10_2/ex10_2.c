@@ -14,8 +14,8 @@ int main(void)
             key = getch() << 8;
         }
 
-        printf("Decimal :  H %3d   L %d     Hexa : %4x\n", key >> 8, key & 0xff,
-               key);
+        printf("Decimal :  H %3d   L %3d     Hexa : %4x\n", key >> 8,
+               key & 0xff, key);
     } while (key != 27);
 
     return 0;
