@@ -16,15 +16,15 @@ int main(void)
     clrscr();
     old_x = x = 40;
     old_y = y = 12;
+    gotoxy(x, y);
     putch('*');
 
     while (loop) {
         if (kbhit()) {
             old_x = x;
             old_y = y;
-            ch = getch();
 
-            if (ch == 0) {
+            if ((ch = getch()) == 0) {
                 ch |= getch() << 8;
             }
 

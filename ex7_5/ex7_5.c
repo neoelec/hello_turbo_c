@@ -6,6 +6,7 @@ int main(void)
     printf(" File : %s\n", __FILE__);
     printf(" Date : %s\n", __DATE__);
     printf(" Time : %s\n", __TIME__);
+    printf(" Turbo-C : %s\n", __TURBOC__);
 #if defined(__TINY__)
     printf(" The memory model is Tiny.\n");
 #elif defined(__SMALL__)

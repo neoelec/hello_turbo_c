@@ -2,8 +2,8 @@
 #define __KEYCODE_H__
 
 #define RETURN 0x000d
-#define RS 0x0008
-#define ESC 0x00ab
+#define BS 0x0008
+#define ESC 0x001b
 #define INS 0x5200
 #define DEL 0x5300
 #define UP 0x4800
@@ -14,6 +14,6 @@
 #define F2 0x3c00
 #define HOME 0x4700
 #define END 0x4f00
-#define SPACE 0x0020
+#define SPC 0x0020
 
 #endif /* ifndef __KEYCODE_H__ */

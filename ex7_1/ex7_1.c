@@ -6,8 +6,8 @@
 #define TRUE !FALSE
 #endif
 #define RETURN 0x000d
-#define RS 0x0008
-#define ESC 0x00ab
+#define BS 0x0008
+#define ESC 0x001b
 #define INS 0x5200
 #define DEL 0x5300
 #define UP 0x4800
@@ -18,7 +18,7 @@
 #define F2 0x3c00
 #define HOME 0x4700
 #define END 0x4f00
-#define SPACE 0x0020
+#define SPC 0x0020
 
 int main(void)
 {
@@ -28,15 +28,15 @@ int main(void)
     clrscr();
     old_x = x = 40;
     old_y = y = 12;
+    gotoxy(x, y);
     putch('*');
 
     while (loop) {
         if (kbhit()) {
             old_x = x;
             old_y = y;
-            ch = getch();
 
-            if (ch == 0) {
+            if ((ch = getch()) == 0) {
                 ch |= getch() << 8;
             }
 
