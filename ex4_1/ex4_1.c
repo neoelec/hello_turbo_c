@@ -9,7 +9,7 @@ int main(void)
         s = s + i;
     }
 
-    printf("Total sum from 1 to 10 is %d\n");
+    printf("Total sum from 1 to 10 is %d\n", s);
 
     return 0;
 }
