@@ -34,6 +34,7 @@ int main(void)
             getimage(0, i, getmaxx(), i + 1, buf);
             setactivepage(0);
             putimage(0, i, buf, COPY_PUT);
+
             setactivepage(1);
             getimage(0, j, getmaxx(), j + 1, buf);
             setactivepage(0);

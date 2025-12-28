@@ -2,17 +2,9 @@
 #include <graphics.h>
 #include <stdio.h>
 
-char *hjust[] = {
-    "LEFT_TEXT",
-    "CENTER_TEXT",
-    "RIGHT_TEXT",
-};
+char *hjust[] = { "LEFT_TEXT", "CENTER_TEXT", "RIGHT_TEXT" };
 
-char *vjust[] = {
-    "BOTTOM_TEXT",
-    "CENTER_TEXT",
-    "TOP_TEXT",
-};
+char *vjust[] = { "BOTTOM_TEXT", "CENTER_TEXT", "TOP_TEXT" };
 
 int main(void)
 {
@@ -29,6 +21,7 @@ int main(void)
         for (vj = LEFT_TEXT; vj <= RIGHT_TEXT; vj++) {
             cleardevice();
             settextjustify(hj, vj);
+
             sprintf(msg, "%s  %s", hjust[hj], vjust[vj]);
 
             line(midx - 4, midy, midx + 4, midy);

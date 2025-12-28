@@ -14,7 +14,7 @@ int main(void)
         setcolor(color);
         line(random(getmaxx()), random(getmaxy()), random(getmaxx()),
              random(getmaxy()));
-        circle(random(getmaxy()), random(getmaxy()), random(1000));
+        circle(random(getmaxy()), random(getmaxy()), random(100));
     }
 
     closegraph();

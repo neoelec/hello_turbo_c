@@ -16,7 +16,7 @@ int main(void)
     outtextxy(50, 80, "Short Size");
 
     setusercharsize(3, 1, 1, 1);
-    outtextxy(50, 140, "Wide Size");
+    outtextxy(50, 130, "Wide Size");
 
     setusercharsize(2, 1, 5, 1);
     outtextxy(50, 150, "Long Size");

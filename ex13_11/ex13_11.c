@@ -19,7 +19,7 @@ int main(void)
     pieslice(xcenter, ycenter, 90, 135, radius);
 
     setfillstyle(INTERLEAVE_FILL, YELLOW);
-    pieslice(xcenter, ycenter, 135, 225, radius);
+    pieslice(xcenter - 10, ycenter, 135, 225, radius);
 
     setfillstyle(HATCH_FILL, BLUE);
     pieslice(xcenter, ycenter, 225, 360, radius);

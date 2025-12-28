@@ -5,9 +5,9 @@
 
 int main(void)
 {
-    int gd = DETECT, gm;
+    int grdriver = DETECT, grmode;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&grdriver, &grmode, "C:/TC/BGI");
 
     if (graphresult() != grOk) {
         printf("graphics error !\n");

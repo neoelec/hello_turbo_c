@@ -1,10 +1,8 @@
 #include <conio.h>
 #include <graphics.h>
 
-char *fname[] = {
-    "DEFAULT font",    "TRIPLEX font", "SMALL font",
-    "SANS SERIF font", "GOTHIC font",
-};
+char *fname[] = { "DEFAULT font", "TRIPLEX font", "SMALL font",
+                  "SANS SERIF font", "GOTHIC font" };
 
 int main(void)
 {

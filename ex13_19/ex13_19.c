@@ -19,8 +19,8 @@ int main(void)
     x = y = 0;
     color = 1;
 
-    for (j = 0; j < 10; j++) {
-        for (i = 0; i < 15; i++) {
+    for (j = 0; j < 10; ++j) {
+        for (i = 0; i < 15; ++i) {
             setfillstyle(SOLID_FILL, color++);
             bar(x, y, x + width, y + height);
             x += width + 1;
