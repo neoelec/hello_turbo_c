@@ -111,7 +111,7 @@ void shot(int ufo_x, int ufo_y, int gd)
     setcolor(YELLOW);
     line(sh_x, ufo_y - 1, sh_x, ufo_y - 10);
 
-    for (i = ufo_y - 1; 10; i -= 10) {
+    for (i = ufo_y - 1; i > 0; i -= 10) {
         setcolor(YELLOW);
         line(sh_x, i - 10, sh_x, i - 20);
         delay(30);
