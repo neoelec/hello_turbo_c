@@ -5,7 +5,7 @@
 #include <string.h>
 
 #define MAXKEY 5
-static KEY[MAXKEY] = { 0x34, 0xf2, 0x12, 0x0c, 0xeb };
+static char KEY[MAXKEY] = { 0x34, 0xf2, 0x12, 0x0c, 0xeb };
 
 static unsigned int count = 0;
 
@@ -38,8 +38,8 @@ void code(char *input, char *output)
         count++;
     } while (!ferror(fp1) && !ferror(fp2));
 
-    close(fp1);
-    close(fp2);
+    fclose(fp1);
+    fclose(fp2);
 }
 
 int main(int argc, char *argv[])
@@ -52,7 +52,7 @@ int main(int argc, char *argv[])
     }
 
     if (!strcmp(argv[1], argv[2])) {
-        printf("\n\nFile name must be different ...\n");
+        printf("\a\nFile name must be different ...\n");
         exit(0);
     }
 
