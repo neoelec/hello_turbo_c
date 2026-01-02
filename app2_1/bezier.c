@@ -1,5 +1,6 @@
-#include "bezier.h"
 #include <graphics.h>
+
+#include "bezier. h"
 
 typedef struct {
     int x, y;
