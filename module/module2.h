@@ -4,4 +4,4 @@
 extern char *m2;
 extern void call_module2(void);
 
-#endif
+#endif /* __MODULE2_H__ */

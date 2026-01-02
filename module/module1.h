@@ -3,4 +3,4 @@
 
 extern char *m1;
 
-#endif
+#endif /* __MODULE1_H__ */
