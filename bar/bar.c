@@ -8,16 +8,16 @@ char pattern[8] = { 0xaa, 0x55, 0xaa, 0x55, 0xaa, 0x55, 0xaa, 0x55 };
 
 int main(void)
 {
-    int gd = DETECT, gm, x_len, y_len, i, j;
+    int gdriver = DETECT, gmode, x_len, y_len, i, j;
     char ch[40];
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gdriver, &gmode, "C:/TC/BGI");
 
     x_len = getmaxx() / 3;
     y_len = getmaxy() / 3;
 
     for (i = j = 0; i < x_len; i += (x_len / 4), j += (y_len / 4)) {
-        p_bar(i, j, i + x_len, j + y_len, gd);
+        p_bar(i, j, i + x_len, j + y_len, gdriver);
     }
 
     sprintf(ch, "Cubic Effect !!");
