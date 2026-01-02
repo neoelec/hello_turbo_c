@@ -34,8 +34,8 @@ void code(char *input, char *output)
         putc(ch, fp2);
     } while (!ferror(fp1) && !ferror(fp2));
 
-    close(fp1);
-    close(fp2);
+    fclose(fp1);
+    fclose(fp2);
 }
 
 int main(int argc, char *argv[])
@@ -48,7 +48,7 @@ int main(int argc, char *argv[])
     }
 
     if (!strcmp(argv[1], argv[2])) {
-        printf("\n\nFile name must be different ...\n");
+        printf("\a\nFile name must be different ...\n");
         exit(0);
     }
 
