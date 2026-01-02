@@ -16,4 +16,4 @@
 #define END 0x4f00
 #define SPC 0x0020
 
-#endif /* ifndef __KEYCODE_H__ */
+#endif /* __KEYCODE_H__ */
