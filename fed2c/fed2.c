@@ -8,7 +8,7 @@ int main(int argc, char *argv[])
     int info[4];
 
     if (argc < 3) {
-        puts(" \n Usage : C:\\>fed2c <File1> <File2>\n");
+        puts(" \a Usage : C:\\>fed2c <File1> <File2>\n");
         exit(255);
     }
 
