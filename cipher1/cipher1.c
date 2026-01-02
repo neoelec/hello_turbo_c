@@ -13,16 +13,12 @@ void code(char *input, char *output)
     FILE *fp1, *fp2;
     char ch;
 
-    fp1 = fopen(input, "rb");
-
-    if (fp1 == NULL) {
+    if ((fp1 = fopen(input, "rb")) == NULL) {
         printf("cannot open input file\n");
         exit(1);
     }
 
-    fp2 = fopen(output, "wb");
-
-    if (fp2 == NULL) {
+    if ((fp2 = fopen(output, "wb")) == NULL) {
         printf("cannot open output file\n");
         exit(1);
     }
@@ -52,13 +48,12 @@ int main(int argc, char *argv[])
     }
 
     if (!strcmp(argv[1], argv[2])) {
-        printf("\07\nFile name must be different ...\n");
+        printf("\n\nFile name must be different ...\n");
         exit(0);
     }
 
     code(argv[1], argv[2]);
-
-    printf("\nCompelete !\n");
+    printf("\nComplete !\n");
 
     return 0;
 }
