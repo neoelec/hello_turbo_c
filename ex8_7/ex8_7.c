@@ -8,7 +8,7 @@ int main(void)
         "kim ung suk",
     };
 
-    printf(" Total used memory : %zu\n", sizeof(string));
+    printf(" Total used memory : %u\n", sizeof(string));
 
     return 0;
 }
