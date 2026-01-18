@@ -1,4 +1,4 @@
-TARGET			= ex8_12
+TARGET			= EX8_12
 
 CSRCS			= $(TARGET).C
 
@@ -10,7 +10,7 @@ LDFLAGS			= -w
 LIBS                    =
 
 .C.OBJ:
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -o$@ -c $<
 
 $(TARGET).EXE: $(COBJS)
 	$(CC) $(LDFLAGS) -e$(TARGET).EXE $(COBJS) $(LIBS)

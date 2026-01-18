@@ -1,4 +1,4 @@
-TARGET			= app7_1
+TARGET			= APP7_1
 
 CSRCS			= $(TARGET).C
 
@@ -10,7 +10,7 @@ LDFLAGS			= -w
 LIBS                    =
 
 .C.OBJ:
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -o$@ -c $<
 
 $(TARGET).EXE: $(COBJS)
 	$(CC) $(LDFLAGS) -e$(TARGET).EXE $(COBJS) $(LIBS)

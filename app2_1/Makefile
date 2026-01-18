@@ -1,4 +1,4 @@
-TARGET			= app2_1
+TARGET			= APP2_1
 
 CSRCS			= $(TARGET).C BEZIER.C
 
@@ -10,7 +10,7 @@ LDFLAGS			= -w
 LIBS                    = GRAPHICS.LIB
 
 .C.OBJ:
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -o$@ -c $<
 
 $(TARGET).EXE: $(COBJS)
 	$(CC) $(LDFLAGS) -e$(TARGET).EXE $(COBJS) $(LIBS)

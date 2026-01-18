@@ -1,4 +1,4 @@
-TARGET			= ncd
+TARGET			= NCD
 
 CSRCS			= $(TARGET).C PULLDOWN.C
 
@@ -10,7 +10,7 @@ LDFLAGS			= -w
 LIBS                    = GRAPHICS.LIB
 
 .C.OBJ:
-	$(CC) $(CFLAGS) -c $<
+	$(CC) $(CFLAGS) -o$@ -c $<
 
 $(TARGET).EXE: $(COBJS)
 	$(CC) $(LDFLAGS) -e$(TARGET).EXE $(COBJS) $(LIBS)
