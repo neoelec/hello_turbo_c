@@ -151,7 +151,6 @@ void pulldriver(int *menu_frame, int *number, int gd)
     while (do_again) {
         switch (*number = pulldown(*menu_frame, *number)) {
         case -1:
-
             if (*menu_frame == 0) {
                 do_again = FALSE;
             } else {
@@ -162,7 +161,6 @@ void pulldriver(int *menu_frame, int *number, int gd)
             break;
 
         case -2:
-
             if (*menu_frame > 0) {
                 restore_video(*menu_frame);
             }
@@ -185,7 +183,6 @@ void pulldriver(int *menu_frame, int *number, int gd)
             break;
 
         case -3:
-
             if (*menu_frame > 0) {
                 restore_video(*menu_frame);
             }
@@ -347,7 +344,6 @@ int get_resp(int num)
                     break;
 
                 case ESC:
-
                     if (num <= frame[0].count) {
                         is_level0 = TRUE;
                     }
@@ -365,13 +361,11 @@ int get_resp(int num)
                     break;
 
                 case 75:
-
                     if (num <= frame[0].count) {
                         return -2;
                     }
 
                 case 77:
-
                     if (num <= frame[0].count) {
                         return -3;
                     }
@@ -429,7 +423,6 @@ int get_resp(int num)
             } else {
                 switch (c.ch[1]) {
                 case 75:
-
                     if (is_level0 == FALSE) {
                         return -2;
                     } else {
@@ -438,7 +431,6 @@ int get_resp(int num)
                     }
 
                 case 77:
-
                     if (is_level0 == FALSE) {
                         return -3;
                     } else {
