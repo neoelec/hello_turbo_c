@@ -7,7 +7,7 @@ COBJS			= $(TARGET).OBJ
 CC			= BCC
 CFLAGS			= -w
 LDFLAGS			= -w
-LIBS                    = GRAPHICS.LIB
+LIBS                    =
 
 .C.OBJ:
 	$(CC) $(CFLAGS) -o$@ -c $<
