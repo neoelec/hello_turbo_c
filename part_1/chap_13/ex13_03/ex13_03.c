@@ -7,7 +7,7 @@ int main(void)
     int color;
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     while (!kbhit()) {
         color = random(getmaxcolor() + 1);

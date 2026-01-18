@@ -39,7 +39,7 @@ int main(void)
     };
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     make_top(title, "divq", 4);
     make_menu(1, disk, "crv", 3, 0, 0);

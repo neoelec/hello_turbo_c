@@ -4,7 +4,7 @@ CSRCS			= $(TARGET).C BEZIER.C
 
 COBJS			= $(TARGET).OBJ BEZIER.OBJ
 
-CC			= TCC
+CC			= BCC
 CFLAGS			= -w
 LDFLAGS			= -w
 LIBS                    = GRAPHICS.LIB

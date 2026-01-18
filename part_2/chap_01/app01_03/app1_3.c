@@ -42,7 +42,7 @@ int main(void)
     int loop = TRUE;
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
     cleardevice();
 
     if (gd == VGA) {

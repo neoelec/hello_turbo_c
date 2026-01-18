@@ -12,7 +12,7 @@ int main(void)
     int midx, midy, hj, vj;
     char msg[80];
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     midx = getmaxx() / 2;
     midy = getmaxy() / 2;

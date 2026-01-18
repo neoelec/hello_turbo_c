@@ -11,7 +11,7 @@ int main(void)
 {
     int gd = DETECT, gm, n = 0;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
     randomize();
 
     while (!kbhit()) {

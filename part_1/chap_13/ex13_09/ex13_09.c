@@ -9,7 +9,7 @@ int main(void)
     int i, h, w, d, max;
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     max = 18;
     line(50, 50, 50, getmaxy() - 50);

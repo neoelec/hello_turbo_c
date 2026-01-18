@@ -4,7 +4,7 @@ CSRCS			= $(TARGET).C PULLDOWN.C
 
 COBJS			= $(TARGET).OBJ PULLDOWN.OBJ
 
-CC			= TCC
+CC			= BCC
 CFLAGS			= -w
 LDFLAGS			= -w
 LIBS                    = GRAPHICS.LIB

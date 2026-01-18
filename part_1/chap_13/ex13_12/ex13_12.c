@@ -10,7 +10,7 @@ int main(void)
     struct pointtype pt[MAXPOINT + 1];
     int i, gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     randomize();
 

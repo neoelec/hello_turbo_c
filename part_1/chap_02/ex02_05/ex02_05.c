@@ -11,7 +11,7 @@ int main(void)
     a2 = pi * 2;
     inc = (a2 - a1) / n;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     for (i = a1; i < a2; i += inc) {
         r = a * (1 - cos(i));

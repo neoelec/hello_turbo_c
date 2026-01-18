@@ -10,7 +10,7 @@ int main(void)
     int style, midx, midy;
     int size = 1;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     midx = getmaxx() / 2 - 100;
     midy = getmaxy() / 2 - 20;

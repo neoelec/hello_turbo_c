@@ -6,7 +6,7 @@ int main(void)
     int style;
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     for (style = SOLID_LINE; style <= DASHED_LINE; style++) {
         setlinestyle(style, 0, NORM_WIDTH);

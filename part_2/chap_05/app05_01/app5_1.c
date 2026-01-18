@@ -96,7 +96,7 @@ int main(void)
 {
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     drawscr();
     printgrscr();

@@ -41,7 +41,7 @@ int main(void)
     };
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
     cleardevice();
 
     putimage(getmaxx() / 2, getmaxy() / 2, bitmap, COPY_PUT);

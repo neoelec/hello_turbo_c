@@ -15,7 +15,7 @@ int main(void)
     int i, x, y, maxx;
     unsigned int size;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     maxx = getmaxx();
     x = 0;

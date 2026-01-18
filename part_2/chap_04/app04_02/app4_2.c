@@ -17,7 +17,7 @@ int main(void)
 {
     int gd = DETECT, gm, ch = 0;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     setcolor(getmaxcolor());
     cursor(m_x, m_y);

@@ -7,7 +7,7 @@ int main(void)
     unsigned char i;
     char ch[2] = "\0\0";
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
     rectangle(0, 0, getmaxx(), getmaxy());
     outtextxy(150, 100, "Hello, Turbo C 2.0");
     outtextxy(150, 120, "Graphic mode Character Output..");

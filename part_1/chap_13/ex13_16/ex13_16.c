@@ -5,7 +5,7 @@ int main(void)
 {
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     settextstyle(TRIPLEX_FONT, HORIZ_DIR, 4);
 

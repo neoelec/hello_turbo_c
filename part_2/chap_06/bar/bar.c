@@ -11,7 +11,7 @@ int main(void)
     int gdriver = DETECT, gmode, x_len, y_len, i, j;
     char ch[40];
 
-    initgraph(&gdriver, &gmode, "C:/TC/BGI");
+    initgraph(&gdriver, &gmode, "C:/BORLANDC/BGI");
 
     x_len = getmaxx() / 3;
     y_len = getmaxy() / 3;

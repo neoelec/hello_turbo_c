@@ -10,7 +10,7 @@ int main(void)
     int height, width;
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     getviewsettings(&vp);
     width = getmaxx() / 15;

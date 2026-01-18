@@ -6,7 +6,7 @@ int main(void)
     int xcenter, ycenter, radius;
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     xcenter = getmaxx() / 2;
     ycenter = getmaxy() / 2 + 20;

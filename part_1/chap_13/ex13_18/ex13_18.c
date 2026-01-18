@@ -10,7 +10,7 @@ int main(void)
     int i, j, size, midy;
     void *buf;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     setvisualpage(0);
 

@@ -7,7 +7,7 @@ int main(void)
 {
     int grdriver = DETECT, grmode;
 
-    initgraph(&grdriver, &grmode, "C:/TC/BGI");
+    initgraph(&grdriver, &grmode, "C:/BORLANDC/BGI");
 
     if (graphresult() != grOk) {
         printf("graphics error !\n");

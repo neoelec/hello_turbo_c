@@ -6,7 +6,7 @@ int main(void)
     int i, j;
     int gd = DETECT, gm;
 
-    initgraph(&gd, &gm, "C:/TC/BGI");
+    initgraph(&gd, &gm, "C:/BORLANDC/BGI");
 
     rectangle(0, 0, getmaxx(), getmaxy());
 
