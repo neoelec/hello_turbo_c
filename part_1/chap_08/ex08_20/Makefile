@@ -1,4 +1,4 @@
-TARGET			= EX08_020
+TARGET			= EX08_20
 
 CSRCS			= $(TARGET).C
 
