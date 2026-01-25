@@ -11,7 +11,7 @@ int main(void)
 
     if (graphresult() != grOk) {
         printf("graphics error !\n");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     line(0, 0, getmaxx(), getmaxy());

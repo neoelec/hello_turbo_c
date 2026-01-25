@@ -15,12 +15,12 @@ void code(char *input, char *output)
 
     if ((fp1 = fopen(input, "rb")) == NULL) {
         printf("cannot open input file\n");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     if ((fp2 = fopen(output, "wb")) == NULL) {
         printf("cannot open output file\n");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     do {
@@ -44,12 +44,12 @@ int main(int argc, char *argv[])
 
     if (argc != 3) {
         printf("Usage : cipher1 <infile> <outfile>\n");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     if (!strcmp(argv[1], argv[2])) {
         printf("\a\nFile name must be different ...\n");
-        exit(0);
+        exit(EXIT_SUCCESS);
     }
 
     code(argv[1], argv[2]);

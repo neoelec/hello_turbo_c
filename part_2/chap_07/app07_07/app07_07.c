@@ -68,7 +68,8 @@ int read_data(struct word *ps)
     int i;
 
     if ((data = fopen("DICTION.TXT", "rt")) == NULL) {
-        puts("DICTION.TXT reading error!"), exit(0);
+        puts("DICTION.TXT reading error!");
+        exit(EXIT_SUCCESS);
     }
 
     for (i = 0; i < WORD_MAX; i++, ps++) {
