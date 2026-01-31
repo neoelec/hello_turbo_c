@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     }
 
     str = fopen(argv[1], "rb");
-    out = fopen(argv[2], "wt");
+    out = fopen(argv[2], "w+");
 
     fseek(str, 28, SEEK_SET);
     info[0] = fgetc(str);

@@ -67,7 +67,7 @@ int read_data(struct word *ps)
     FILE *data;
     int i;
 
-    if ((data = fopen("DICTION.TXT", "rt")) == NULL) {
+    if ((data = fopen("DICTION.TXT", "r+")) == NULL) {
         puts("DICTION.TXT reading error!");
         exit(EXIT_SUCCESS);
     }
